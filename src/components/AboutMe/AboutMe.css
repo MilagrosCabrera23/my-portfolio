@@ -1,0 +1,113 @@
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  max-width: 75rem;
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+.title-about {
+  font-family: "Poppins", sans-serif;
+  font-size: 2.7rem;
+  font-weight: bold;
+  color: #60eaff;
+  text-align: center;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.subtitle-about {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.4rem;
+  color: #ffdede;
+  font-size: 700;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+.strong-about {
+  color:#e913b3;
+  font-weight: 700;
+  font-style: italic;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  transition: color 0.3s ease;
+}
+.tech-card {
+  transition: transform 0.3s ease;
+}
+
+.tech-card:hover {
+  transform: translateY(-5px);
+}
+
+.imagen-about {
+  border-radius: 10%;
+  max-width: 25rem;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  margin:3rem 0;
+}
+
+.button-redes {
+  font-weight: 700;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+}
+
+.btn-redes{
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+}
+.btn-cv {
+  background-color: #e913b3;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 1.2rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.btn-cv:hover {
+  background-color: #d10fa5;
+  box-shadow: 0 0 10px #ff64c9;
+  color: #ffffff;
+  font-weight: 700;
+  transform: scale(1.05);
+}
+
+@media (min-width: 220px) and (max-width: 640px) {
+  .row-about {
+    flex-direction: row-reverse;
+  }
+  .title-about {
+    font-size: 1.5rem;
+    margin-bottom: 1rem; /* Espacio después del título */
+  }
+  
+  .subtitle-about {
+    font-size: 1.2rem;
+    margin-bottom: 1rem; /* Espacio entre párrafos */
+  }
+  
+  .imagen-about {
+    max-width: 15rem;
+    margin: 1.5rem 0; /* Menos margen en mobile */
+  }
+  
+  .button-redes {
+    flex-direction: column;
+    gap: 0.5rem; /* Espacio entre botones */
+  }
+  
+  .btn {
+    width: 20vh;
+    padding: 0.5rem; 
+  }
+
+@media (min-width: 690px) and (max-width: 1340px) {
+  .button-redes {
+    width: 10vh;
+  }
+}
