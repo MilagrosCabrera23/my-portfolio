@@ -66,6 +66,17 @@ background-color: #e913b3;
   box-shadow: 0 0 10px #ff64c9;
 }
 
+.toast-success {
+  background-color: #d1e7dd; 
+  color: #0f5132;             
+  font-weight: bold;
+}
+
+.toast-error {
+  background-color: #f8d7da;  
+  color: #842029;
+  font-weight: bold;
+}
 
 @media (min-width: 220px) and (max-width: 740px) {
   .title-contacto {
