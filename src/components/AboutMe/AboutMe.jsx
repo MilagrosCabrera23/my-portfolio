@@ -16,6 +16,18 @@ const AboutMeComponent = () => {
             transition={{ duration: 0.9 }}
           >
             <h2 className="title-about">Sobre Mi</h2>
+
+              {/* Imagen (solo en mobile) */}
+        <div className="d-md-none text-center my-4">
+          <motion.img
+            src={perfilAnime}
+            alt="foto de perfil animada"
+            className="imagen-about"
+            whileHover={{ scale: [1, 1.1, 1.2] }}
+            transition={{ duration: 0.5 }}
+          />
+        </div>
+        
             <p className="subtitle-about">
               ¡Hola! Soy{" "}
               <strong className="strong-about">Milagros Cabrera</strong>, aunque
@@ -73,17 +85,6 @@ const AboutMeComponent = () => {
             transition={{ duration: 0.5 }}
           />
         </Col>
-
-        {/* Imagen (solo en mobile) */}
-        <div className="d-md-none text-center my-4">
-          <motion.img
-            src={perfilAnime}
-            alt="foto de perfil animada"
-            className="imagen-about"
-            whileHover={{ scale: [1, 1.1, 1.2] }}
-            transition={{ duration: 0.5 }}
-          />
-        </div>
       </Row>
     </Container>
   );

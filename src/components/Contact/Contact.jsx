@@ -28,7 +28,7 @@ const ContactComponent = () => {
 
       if (resp.ok) {
         toast.success("Mensaje enviado correctamente", {
-          position: "top-right",
+          position: "top-center",
           toastClassName: "toast-success",
           autoClose: 5000,
           hideProgressBar: false,
@@ -46,7 +46,7 @@ const ContactComponent = () => {
         setMensaje("");
       } else {
         toast.error("Error al enviar el mensaje", {
-          position: "top-right",
+          position: "top-center",
           toastClassName: "toast-error",
           autoClose: 5000,
           hideProgressBar: false,
@@ -58,12 +58,13 @@ const ContactComponent = () => {
       }
     } catch (err) {
       toast.error("Error de conexión con el servidor", {
-        position: "top-right",
+        position: "top-center",
         toastClassName: "toast-error",
         autoClose: 5000,
       });
     }
   };
+
   return (
     <Container className="about-contacto container" id="contacto">
       <Col>
@@ -72,9 +73,7 @@ const ContactComponent = () => {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.9 }}
         >
-          <h2 className="text-center  title-contacto">
-            Formulario de Contacto
-          </h2>
+          <h2 className="text-center title-contacto">Formulario de Contacto</h2>
           <p className="subtitle-contacto">
             ¿Querés contactarme? Enviame un mensaje directamente desde este
             formulario y te respondere a la brevedad.
@@ -100,8 +99,8 @@ const ContactComponent = () => {
               type="tel"
               required
               placeholder="Ingrese su número de contacto"
-               value={telefono}
-               onChange={(e) => setTelefono(e.target.value)}
+              value={telefono}
+              onChange={(e) => setTelefono(e.target.value)}
             />
           </Form.Group>
 
@@ -118,12 +117,23 @@ const ContactComponent = () => {
 
           <Form.Group controlId="formAsunto" className="mb-3">
             <Form.Label className="text-forms">Asunto:</Form.Label>
-            <Form.Control type="text" placeholder="Motivo del mensaje" value={asunto} onChange={(e) => setAsunto(e.target.value)} />
+            <Form.Control
+              type="text"
+              placeholder="Motivo del mensaje"
+              value={asunto}
+              onChange={(e) => setAsunto(e.target.value)}
+            />
           </Form.Group>
 
           <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
             <Form.Label className="text-forms">Escribi tu mensaje:</Form.Label>
-            <Form.Control required as="textarea" rows={5} value={mensaje} onChange={(e) => setMensaje(e.target.value)} />
+            <Form.Control
+              required
+              as="textarea"
+              rows={5}
+              value={mensaje}
+              onChange={(e) => setMensaje(e.target.value)}
+            />
           </Form.Group>
 
           <Button
