@@ -1,7 +1,7 @@
 import "./AboutMe.css";
 import { motion } from "framer-motion";
 import { Container, Row, Col } from "react-bootstrap";
-import {FaGithub,FaLinkedin,FaDownload,} from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaDownload } from "react-icons/fa";
 import perfilAnime from "../../assets/img/perfilanime.png";
 
 const AboutMeComponent = () => {
@@ -17,34 +17,33 @@ const AboutMeComponent = () => {
           >
             <h2 className="title-about">Sobre Mi</h2>
 
-              {/* Imagen (solo en mobile) */}
-        <div className="d-md-none text-center my-4">
-          <motion.img
-            src={perfilAnime}
-            alt="foto de perfil animada"
-            className="imagen-about"
-            whileHover={{ scale: [1, 1.1, 1.2] }}
-            transition={{ duration: 0.5 }}
-          />
-        </div>
-        
+            {/* Imagen (solo en mobile) */}
+            <div className="d-md-none text-center my-4">
+              <motion.img
+                src={perfilAnime}
+                alt="foto de perfil animada"
+                className="imagen-about"
+                whileHover={{ scale: [1, 1.1, 1.2] }}
+                transition={{ duration: 0.5 }}
+              />
+            </div>
+
             <p className="subtitle-about">
               ¡Hola! Soy{" "}
               <strong className="strong-about">Milagros Cabrera</strong>, aunque
               prefiero que me llamen{" "}
               <strong className="strong-about">Magui</strong>. Soy una
               desarrolladora Full Stack apasionada por crear soluciones
-              tecnológicas innovadoras y amante del café ☕.
-    
-              Mi enfoque se centra en el desarrollo de aplicaciones web modernas
-              y escalables, combinando las mejores prácticas de frontend y
-              backend.
-        
-              Me destaco por mi capacidad para aprender rápidamente nuevas
-              tecnologías y mi compromiso con la calidad del código.
-       
-              También podés conocer más sobre mí en mis redes profesionales o
-              descargar mi CV:
+              tecnológicas innovadoras y amante del café ☕.</p>
+              
+              <p className="subtitle-about">Mi enfoque se
+              centra en el desarrollo de aplicaciones web modernas y escalables,
+              combinando las mejores prácticas de frontend y backend. Me destaco
+              por mi capacidad para aprender rápidamente nuevas tecnologías y mi
+              compromiso con la calidad del código. </p>
+              
+              <p className="subtitle-about">También podés conocer más
+              sobre mí en mis redes profesionales o descargar mi CV:
             </p>
 
             <div className="button-redes gap-3 d-flex flex-wrap">
@@ -90,4 +89,4 @@ const AboutMeComponent = () => {
   );
 };
 
-export default AboutMeComponent; 
+export default AboutMeComponent;

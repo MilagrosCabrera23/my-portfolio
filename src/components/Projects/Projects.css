@@ -4,6 +4,7 @@
   align-items: center;
   text-align: center;
   max-width: 75rem;
+  min-height: 100vh;
   width: 100%;
   margin: 0 auto;
   padding: 2rem 1rem;
@@ -11,7 +12,7 @@
 
 .title-projects {
   font-family: "Montserrat", sans-serif;
-  font-size: 2.2rem;
+  font-size: 1.8rem;
   font-weight: bold;
   color: #38bdf8; 
   text-align:center; 
@@ -21,7 +22,7 @@
 
 .subtitle-projects {
   font-family: "Roboto", sans-serif;
-  font-size: 1.3em;
+  font-size: 1rem;
   text-align:center;
   color: #dddddd; 
   line-height: 1.6;
@@ -43,7 +44,7 @@
 
 .titles-projects {
   font-family: "Poppins", sans-serif;
-  font-size: 1.3rem;
+  font-size: 1rem;
   text-align: center;
   font-weight: bold;
   color:#e913b3;
@@ -51,14 +52,14 @@
 
 .text-projects {
   font-family: "Roboto", sans-serif;
-  font-size: 1.2rem;
+  font-size: 0.9rem;
   color: #ffffff;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
 }
 
 .button-group {
   font-family: "Poppins", sans-serif;
-  font-size: 1.3em;
+  font-size: 0.9rem;
   justify-content: center;
   margin-top: auto;
   flex-wrap: wrap;
@@ -71,44 +72,43 @@
   color: #38bdf8; 
   padding: 0.2rem 0.6rem;
   border-radius: 0.5rem;
-  font-size: 1rem;
+  font-size: 0.8rem;
   font-weight: 500;
 }
 
 .btn-github {
  background-color: #e913b3;  
   color: white;
-  font-size: 1.2rem;
+  font-size: 0.8rem;
   border: none;
 }
 
 .img-proyectos {
-  width: 100%;
-  max-width: 300px;
+  width: 60%;
   height: auto;
   border-radius: 1rem;
+  margin: 0 auto;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
 }
 
 @media (min-width: 220px) and (max-width: 767px) {
   .about-projects {
-    padding: 4rem 1rem 2rem; /* Más espacio arriba en mobile */
-    min-height: auto; /* Permite que se ajuste al contenido */
+    padding: 4rem 1rem 2rem; 
+    min-height: auto; 
   }
   
   .title-projects {
-    margin-top: 0; /* Removemos el margin-top que causaba problemas */
-    font-size: 1.7rem;
+    margin-top: 0; 
+    font-size: 1.5rem;
     margin-bottom: 0.5rem;
   }
   
   .subtitle-projects {
-    font-size: 1.3rem;
-    margin-bottom: 1.5rem;
+    font-size: 0.9rem;
   }
   
   .titles-projects {
-    font-size: 1.1em;
+    font-size: 1em;
   }
   
   .text-projects {
@@ -116,22 +116,16 @@
   }
   
   .img-proyectos {
-    align-items: center;
-    justify-content: center;
     margin: 0 auto;
   }
   
-  .button-group {
-    font-size: 0.8em;
-  }
   
   .btn {
     width:auto;
     height:auto; 
   }
-  
   .button-github {
-    font-size: 0.5em;
+    font-size: 0.9rem;
   }
 }
 

@@ -26,11 +26,9 @@ Diseñar y construir un portafolio personal responsivo y funcional que permita a
 ---
 
 ## 📂 Resumen de secciones
-
+---
 ### 👤 Acerca de mí  
 Una breve introducción sobre quién soy, mi camino en el desarrollo de software, y mi pasión por crear soluciones útiles con tecnología.
-
----
 
 ### 💡 Habilidades  
 Listado visual de mis conocimientos técnicos, incluyendo herramientas de frontend, backend y otras tecnologías que manejo:
@@ -40,8 +38,6 @@ Listado visual de mis conocimientos técnicos, incluyendo herramientas de fronte
 - **Bases de datos:** MySQL
 - **Control de versiones:** Git & GitHub
 - **Otras herramientas:** Logisim, ESP32, Node-RED
-
----
 
 ### 🧩 Proyectos  
 Sección dedicada a mostrar algunos de mis proyectos favoritos:

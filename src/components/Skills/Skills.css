@@ -5,6 +5,7 @@
     text-align: center;
     justify-content: center;
     max-width: 75rem;
+    min-height: 100vh; 
     width: 100%;
     margin: 0 auto;
     padding: 2rem 1rem;
@@ -12,7 +13,7 @@
 
 .title-skills {
     font-family: "Poppins", sans-serif;
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: bold;
     color: #ff5fcf;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
@@ -21,14 +22,14 @@
 
 .subtitle-skills {
     font-family: "Roboto", sans-serif;
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: #ffffff;
     line-height: 1.6;
     margin-bottom: 2rem;
 }
 
 .fw-bold {
-    font-size: 1.7rem;
+    font-size: 1.2rem;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
 }
 
@@ -49,7 +50,7 @@
 }
 
 .tech-icon-circle {
-    font-size: 2.7rem;
+    font-size: 2rem;
     color: #32a0b1;
     transition: transform 0.3s ease, color 0.3s ease;
 }
@@ -60,7 +61,7 @@
 }
 
 .tech-label {
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: #ffffff;
     font-family: "Poppins", sans-serif;
     text-align: center;
@@ -73,28 +74,27 @@
     }
 
     .title-skills {
-        font-size: 1.7rem; 
+        font-size: 1.5rem; 
         margin-bottom: 0.5rem;
     }
 
     .subtitle-skills {
-        font-size: 1.2rem;
+        font-size: 1rem;
         margin-bottom: 1.5rem;
     }
 
     .tech-icon-circle {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 
     .tech-label {
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
 }
 
-/* Para pantallas muy pequeñas */
 @media (max-width: 400px) {
     .skills-container {
-        padding: 5rem 0.5rem 2rem; /* Aún más espacio arriba */
+        padding: 3rem 0.5rem 0rem; 
     }
     
     .title-skills {
