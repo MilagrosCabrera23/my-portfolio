@@ -23,49 +23,7 @@ Diseñar y construir un portafolio personal responsivo y funcional que permita a
 - 🛠️ Descubrir mis proyectos
 - 📬 Ponerse en contacto conmigo mediante un formulario
 
---- 
-## Estructura del proyecto
-
-├── src/                       
-│   ├── assets/                
-│   ├── components/            
-│   │   ├── AboutMe/
-│   │   │   ├── AboutMe.jsx
-│   │   │   └── AboutMe.css
-│   │   ├── Background/
-│   │   │   ├── Background.jsx
-│   │   │   └── Background.css
-│   │   ├── Contact/
-│   │   │   ├── Contact.jsx
-│   │   │   └── Contact.css
-│   │   ├── Footer/
-│   │   │   ├── Footer.jsx
-│   │   │   └── Footer.css
-│   │   ├── Home/
-│   │   │   ├── Home.jsx
-│   │   │   └── Home.css
-│   │   ├── Loading/
-│   │   │   ├── Loading.jsx
-│   │   │   └── Loading.css
-│   │   ├── Navbar/
-│   │   │   ├── Navbar.jsx
-│   │   │   └── Navbar.css
-│   │   ├── Projects/
-│   │   │   ├── Projects.jsx
-│   │   │   └── Projects.css
-│   │   └── Skills/
-│   │       ├── Skills.jsx
-│   │       └── Skills.css
-│
-│   ├── App.jsx                # Componente principal
-│   ├── main.jsx               # Punto de entrada de la app
-│   ├── App.css                # Estilos globales
-│
-├── index.html                 # HTML principal para Vite
-├── vite.config.js             # Configuración de Vite
-├── .gitignore                 # Archivos y carpetas a ignorar por Git
-└── README.md                  # Documentación del proyecto
----
+---               
 
 ## 📂 Resumen de secciones
 
