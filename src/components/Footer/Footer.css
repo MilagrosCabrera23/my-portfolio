@@ -29,9 +29,12 @@
 
 @media (min-width:200px) and (max-width:860px) {
   .footer-text {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
   .footer-subtitle {
     font-size: 0.9rem;
   }
+  .footer-icons {
+  max-width:30%;
+}
 }

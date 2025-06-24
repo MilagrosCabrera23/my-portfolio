@@ -26,46 +26,50 @@ Diseñar y construir un portafolio personal responsivo y funcional que permita a
 --- 
 ## Estructura del proyecto
 
-📦 src
-├── 📁 assets               
-├── 📁 components           
-│   ├── 📁 AboutMe           
-│   │   ├── AboutMe.jsx
-│   │   └── AboutMe.css
-│   ├── 📁 Background        
-│   │   ├── Background.jsx
-│   │   └── Background.css
-│   ├── 📁 Contact          
-│   │   ├── Contact.jsx
-│   │   └── Contact.css
-│   ├── 📁 Footer           
-│   │   ├── Footer.jsx
-│   │   └── Footer.css
-│   ├── 📁 Home           
-│   │   ├── Home.jsx
-│   │   └── Home.css
-│   ├── 📁 Loading         
-│   │   ├── Loading.jsx
-│   │   └── Loading.css
-│   ├── 📁 Navbar           
-│   │   ├── Navbar.jsx
-│   │   └── Navbar.css
-│   ├── 📁 Projects         
-│   │   ├── Projects.jsx
-│   │   └── Projects.css
-│   └── 📁 Skills            
-│       ├── Skills.jsx
-│       └── Skills.css
-├── App.jsx                
-├── App.css                
-├── main.jsx               
-├── index.html              
-├── vite.config.js  
-
+mi-portfolio/
+├── src/                       
+│   ├── assets/                
+│   ├── components/            
+│   │   ├── AboutMe/
+│   │   │   ├── AboutMe.jsx
+│   │   │   └── AboutMe.css
+│   │   ├── Background/
+│   │   │   ├── Background.jsx
+│   │   │   └── Background.css
+│   │   ├── Contact/
+│   │   │   ├── Contact.jsx
+│   │   │   └── Contact.css
+│   │   ├── Footer/
+│   │   │   ├── Footer.jsx
+│   │   │   └── Footer.css
+│   │   ├── Home/
+│   │   │   ├── Home.jsx
+│   │   │   └── Home.css
+│   │   ├── Loading/
+│   │   │   ├── Loading.jsx
+│   │   │   └── Loading.css
+│   │   ├── Navbar/
+│   │   │   ├── Navbar.jsx
+│   │   │   └── Navbar.css
+│   │   ├── Projects/
+│   │   │   ├── Projects.jsx
+│   │   │   └── Projects.css
+│   │   └── Skills/
+│   │       ├── Skills.jsx
+│   │       └── Skills.css
+│
+│   ├── App.jsx                # Componente principal
+│   ├── main.jsx               # Punto de entrada de la app
+│   ├── App.css                # Estilos globales
+│
+├── index.html                 # HTML principal para Vite
+├── vite.config.js             # Configuración de Vite
+├── .gitignore                 # Archivos y carpetas a ignorar por Git
+└── README.md                  # Documentación del proyecto
 ---
 
 ## 📂 Resumen de secciones
----
+
 ### 👤 Acerca de mí  
 Una breve introducción sobre quién soy, mi camino en el desarrollo de software, y mi pasión por crear soluciones útiles con tecnología.
 
@@ -78,16 +82,18 @@ Listado visual de mis conocimientos técnicos, incluyendo herramientas de fronte
 - **Control de versiones:** Git & GitHub
 - **Otras herramientas:** Logisim, ESP32, Node-RED
 
+---
 ### 🧩 Proyectos  
-Sección dedicada a mostrar algunos de mis proyectos favoritos:
+Sección dedicada a mostrar algunos de mis proyectos realizados en el ultimo tiempo:
 ---
 
 ## 📫 Contacto
 
 Formulario de contacto integrado en el sitio o podés escribirme directamente a:
 
-- 📧 Email: milagrosmagalycabrera@gmail.com  
-- 💼 LinkedIn: [linkedin.com/in/milagroscabrera-dev](https://linkedin.com/in/milagros-cabrera-dev/)
+- Email: milagrosmagalycabrera@gmail.com 
+- Portfolio: https://cabreramilagros-miportfolio.netlify.app/ 
+- LinkedIn: [linkedin.com/in/milagroscabrera-dev](https://linkedin.com/in/milagros-cabrera-dev/)
 
 ---
 
