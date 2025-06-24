@@ -26,7 +26,6 @@ Diseñar y construir un portafolio personal responsivo y funcional que permita a
 --- 
 ## Estructura del proyecto
 
-mi-portfolio/
 ├── src/                       
 │   ├── assets/                
 │   ├── components/            

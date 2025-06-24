@@ -6,7 +6,7 @@
 
 .footer-text {
   font-size: 1.2rem;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: italic;
 }
 .footer-icons {
@@ -29,7 +29,7 @@
 
 @media (min-width:200px) and (max-width:860px) {
   .footer-text {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
   .footer-subtitle {
     font-size: 0.9rem;
