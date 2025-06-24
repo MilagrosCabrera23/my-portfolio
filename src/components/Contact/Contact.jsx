@@ -18,7 +18,7 @@ const ContactComponent = () => {
     const datos = { nombre, telefono, email, asunto, mensaje };
 
     try {
-      const resp = await fetch("http://localhost:8000/contacto", {
+      const resp = await fetch("https://milagroscabrera-portfoliobackend.onrender.com/contacto", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

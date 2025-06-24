@@ -11,7 +11,7 @@ const ProjectsComponent = () => {
 
   useEffect(() => {
     axios
-      .get("http://127.0.0.1:8000/proyectos")
+      .get("https://milagroscabrera-portfoliobackend.onrender.com/proyectos")
       .then((res) => setProyectos(res.data))
       .catch((err) => console.error(err));
   }, []);
