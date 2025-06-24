@@ -8,6 +8,7 @@
   font-size: 1.2rem;
   font-family: "Poppins", sans-serif;
   font-style: italic;
+  color: #fff;
 }
 .footer-icons {
   max-width: 50%;
@@ -29,10 +30,10 @@
 
 @media (min-width:200px) and (max-width:860px) {
   .footer-text {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
   }
   .footer-subtitle {
-    font-size: 0.9rem;
+    font-size: 0.6rem;
   }
   .footer-icons {
   max-width:30%;
